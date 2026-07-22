@@ -1,0 +1,15 @@
+[project]
+name = "kinal-survey-backend"
+version = "0.1.0"
+description = "API de procesamiento OMR de encuestas para Kinal"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.110.0",
+    "uvicorn[standard]>=0.28.0",
+    "opencv-python-headless>=4.9.0.80",
+    "numpy>=1.26.4",
+    "pillow>=10.2.0",
+    "pydantic>=2.6.4",
+    "python-multipart>=0.0.9",
+]
